@@ -1,0 +1,13 @@
+{
+    "structure": {
+        "readme": "introduction.md"
+    },
+    "plugins": ["collapse", "folding-menu"],
+
+	"pluginsConfig": {
+    "folding-menu":	{
+      "animationDuration": 0,
+      "sticky":            false
+    }
+  }
+}
