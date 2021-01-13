@@ -16,7 +16,7 @@
 | 프로젝트명 | 목표 | 담당자 | 난이도 |
 | ----- | ---- | ----------- | ---------- |
 | [Linux](./Linux/Linux.md) | 기초적인 Linux 사용법에 대해 공부합니다 | - | **필수** |
-| [C language and Algorihtm](./C-and-Algorithm-basic/intro.md) | 기초적인 C언어를 배우고, 자료구조와 알고리즘에 대해 공부합니다. 공부한 자료구조와 알고리즘을 이용해 스도쿠, 오목, 테트리스를 수행하는 프로그램 중 하나를 만들어봅니다 | 김정균 | 초급 |
+| [C language and Algorihtm](./C-and-Algorithm-basic/intro.md) | 기초적인 C언어를 배우고, 자료구조와 알고리즘에 대해 공부합니다. | 김정균 | 초급 |
 | [Machine Learning Problem](./TensorFlow/ML.md) | 머신러닝과 관련된 기초적인 내용을 TensorFlow를 통해 직접 실습할 수 있도록 내용이 구성되어 있습니다 | 진권휴 | 초급 |
 | [File System Implemenatation](./FS/intro.md) | 파일 시스템의 기능과 구조를 이해하고, Linux의 데이터 저장 구조와 I/O 경로를 이해할 수 있습니다. 유저 파일 시스템 FUSE를 활용하여, Fast File System (FFS)를 구현하고 이를 평가합니다 | 구진형 | 중급 |
 | [FTL Implementation](./FTL_implementation/intro.md) | NAND Flash memory의 특성에 따른 기초적인 제약조건만을 만들어 놓은 FTLBox에서 FTL을 구현해본 뒤, DataLab에서 제작하여 사용하고 있는 User-space Flash Simulation Platform인 FlashDriver에서 더 심화된 FTL을 구현하는 것을 목표로 합니다. | 임준수 | 중급 |
