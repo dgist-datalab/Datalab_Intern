@@ -13,10 +13,10 @@ $ sudo apt install cscope
 그 다음에는 `mkcscope.sh`이라는 이름의 shell script를 만들고 아래 내용을 복사해줍시다.
 ```bash
 #!/bin/sh
-rm -rf cscope.files cscope.files
+rm -rf cscope.files cscope.out
 
 find `pwd` \( -name '*.c' -o -name '*.cpp' -o -name '*.cc' -o -name '*.h' -o -name '*.s' -o -name '*.S' \) -print > cscope.files
-cscope -i cscope.files
+cscope -i cscope.files -b
 ```
   
 만들고 난 다음 `mkcscope.sh`의 permission을 변경해주고 `/usr/bin` 폴더로 파일을 옵깁니다.
@@ -46,8 +46,7 @@ cscope에 등록하고자 하는 코드의 디렉토리로 이통해서 `mkcscop
 $ cd /home/hojun/git/linux
 $ mkcscope.sh
 ```
-`mkcscope`를 실행하면 데이터가 빌드되고 빌드가 다 끝나면 값을 입력받으려 합니다.  
-이 때는 그냥 `Ctrl + d`를 눌러서 종료하면 됩니다.  
+`mkcscope`를 실행하면 데이터가 빌드됩니다.  
   
 실행 후에는 `cscope.files`와 `cscope.out` 두 가지 파일이 생성됩니다.
   
